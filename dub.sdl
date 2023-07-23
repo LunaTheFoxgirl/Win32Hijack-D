@@ -1,0 +1,17 @@
+name "inject-engine"
+description "A minimal D application."
+authors "cli-l"
+copyright "Copyright © 2023, cli-l"
+license "proprietary"
+
+targetPath "out/"
+
+configuration "injector" {
+    versions "injector"
+    targetType "executable"
+}
+
+configuration "payload" {
+    versions "payload"
+    targetType "dynamicLibrary"
+}
